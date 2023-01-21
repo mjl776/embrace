@@ -1,0 +1,39 @@
+.container {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Sarabun';
+    color: #CE5D97;
+}
+
+.navbar {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    float: left;
+    width: 150px;
+    height: 100px;
+}
+
+
+li {
+    list-style: none;
+}
+
+a{ 
+    text-decoration: none;
+    color: #CE5D97;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    font-weight: 600;
+    font-size: 20px;
+}
