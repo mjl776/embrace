@@ -1,22 +1,135 @@
-.container {
+
+.container{
     padding: 0;
     margin: 0;
     font-family: 'Sarabun';
+}
+
+.slogan-container {
     text-align: center;
 }
 
 .homepage-logo {
     display: flex;
+    padding-top: 60px;
     justify-content: center;
 }
 
-.slogan-container {
+.slogan {
     display: inline-block; 
     text-align: left;
     font-size: 25px;
+    padding-bottom: 60px;
+    font-weight: 400;
+}
+
+.embrace-graphic {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.info-blocks.row {
+    display: flex;
+    margin: 0 auto;
+}
+
+.info-embrace.col {
+    width: 50%;
+    height: 400px;
+    background: #F1CDBE;
+}
+
+.header-embrace {
+    text-align: center;
+    font-family: "Playfair Display";
+    font-size: 35px;
+}
+
+.embrace-info-text {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.embrace-button-row.row {
+    display: flex;
+    gap: 40px;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.embrace-button {
+    background: #DE5499;
+    height: 39px;
+    width: 144px;
+    text-align: center;
+    line-height: 35px;
+    color: white;
 }
 
 
+.info-dates.col {
+    width: 50%;
+    height: 400px;
+    background: #DE5499;
+    color:black;
+}
 
+.header-info {
+    color: white;
+    font-family: "Playfair Display";
+    text-align: center;
+    font-size: 35px;
+}
 
+.date-info {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.date-container {
+    display: inline-table;
+    text-align: left;
+}
+
+.individual-date {
+    padding-bottom: 10px;
+}
+
+.date-text {
+    text-align: left;
+    display: inline-block;
+    color: black;
+    font-weight: bold;
+}
+
+.title-of-date {
+    color: white;
+    font-weight: 500;
+}
+
+.partnerships {
+    background: white;
+    height: 300px;
+    width: 100%;
+}
+
+.partnerships-header {
+    padding-top: 20px;
+    font-family: "Playfair Display";
+    margin: 0;
+    text-align: center;
+    font-size: 35px;
+}
+
+.partnerships-graphic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
 
