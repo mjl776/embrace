@@ -6,9 +6,6 @@ import { NavLink } from 'react-router-dom';
 const NavBar = () => {
      // Screen width setter
      const [screenWidth, setScreenWidth] = useState(window.innerWidth)
-
-     // Open State Setter
-     const [open, setOpen] = useState(false);
  
      //Screen Width Listener
      useEffect(() => {
@@ -23,10 +20,9 @@ const NavBar = () => {
              window.removeEventListener('resize', changeWidth)
          }
  
-     }, [])
+     })
  
     return ( 
-        <div className = "container">
             <header>
                 <nav className = "navbar">
                     <a href = "/">
@@ -94,7 +90,6 @@ const NavBar = () => {
                     )}
                 </nav>
             </header>
-        </div>
     ); 
 }
 
