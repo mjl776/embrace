@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {HashRouter as Router} from 'react-router-dom';
+import { Route, Routes } from "react-router-dom";
+import NavBar from "./NavigationBar/NavBar";
+import HomePage from "./HomePage/HomePage";
+import Designs from "./CompetitionResults/Designs";
+import { HashRouter as Router } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -11,7 +14,11 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <Router>
-    <App />
+      <NavBar/>
+      <Routes>
+          <Route path="/" element={<HomePage/>}></Route>
+          <Route path="/designs" element={<Designs/>}></Route>
+      </Routes>
     </Router>
   </React.StrictMode>
 );

@@ -40,7 +40,7 @@ const NavBar = () => {
                             </li>
                             <li>
                                 <NavLink
-                                to = "/"
+                                to = "/designs"
                                 className = "nav-link"
                                 >
                                 Competition Results
