@@ -7,6 +7,7 @@ import NavBar from "./NavigationBar/NavBar";
 import HomePage from "./HomePage/HomePage";
 import Designs from "./CompetitionResults/Designs";
 import { HashRouter as Router } from 'react-router-dom';
+import Footer from './Footer/Footer'
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -19,6 +20,7 @@ root.render(
           <Route path="/" element={<HomePage/>}></Route>
           <Route path="/designs" element={<Designs/>}></Route>
       </Routes>
+      <Footer/>
     </Router>
   </React.StrictMode>
 );
