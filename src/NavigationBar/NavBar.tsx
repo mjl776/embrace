@@ -24,11 +24,12 @@ const NavBar = () => {
  
     return ( 
             <header>
+                <a href = "/">
+                    <img src = {logo} className = "logo" alt = "logo"></img>
+                </a>    
                 <nav className = "navbar">
-                    <a href = "/">
-                        <img src = {logo} className = "logo" alt = "logo"></img>
-                    </a>    
                     {(screenWidth > 800) && (
+                        
                         <ul className = "nav-menu">
                             <li>
                                 <NavLink
