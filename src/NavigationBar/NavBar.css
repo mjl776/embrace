@@ -1,6 +1,6 @@
 
 .navbar {
-    min-height: 70px;
+    min-height: 30px;
     display: flex;
     justify-content: space-between;
     font-family: 'Sarabun';
@@ -13,7 +13,13 @@
     float: left;
     width: 136px;
     height: 69px;
-    margin-right: 3rem;
+    margin-right: 10rem;
+    margin-left: 3rem;
+}
+
+ul {
+    padding-top: 15px;
+    padding-inline-start: 0px;
 }
 
 li {
