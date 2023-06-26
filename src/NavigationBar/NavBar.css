@@ -17,19 +17,54 @@
     margin-left: 3rem;
 }
 
-ul {
+nav ul {
     padding-top: 15px;
     padding-inline-start: 0px;
 }
 
-li {
+nav ul li {
     list-style: none;
 }
 
-a{ 
+
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    padding: 10px;
+    background: #EDDCD9;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li {
+    padding: 10px;
+}
+
+/* hover effect for embrace comp. */ 
+
+nav ul li a { 
     text-decoration: none;
     color: #DE5499;
+    position: relative;
 }
+
+nav ul li a::after { 
+    content: '';
+    height: 2px;
+    width: 100%;
+    background: #DE5499;
+    position: absolute;
+    display: block;
+    opacity: 0;
+}
+
+nav ul li a:hover:after { 
+    opacity: 1;
+}
+
 
 .nav-menu {
     display: flex;

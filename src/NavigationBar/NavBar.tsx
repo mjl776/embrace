@@ -20,7 +20,7 @@ const NavBar = () => {
              window.removeEventListener('resize', changeWidth)
          }
  
-     })
+    })
  
     return ( 
             <header>
@@ -54,6 +54,48 @@ const NavBar = () => {
                                 >
                                 emBrace Competition
                                 </NavLink>
+                                <ul>
+                                    <li>
+                                        <NavLink
+                                            to = "/designs"
+                                            className = "nav-link"
+                                            >
+                                            How to Enter
+                                        </NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink
+                                            to = "/designs"
+                                            className = "nav-link"
+                                            >
+                                            Awards
+                                        </NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink
+                                            to = "/designs"
+                                            className = "nav-link"
+                                            >
+                                            Terms & Conditions 
+                                        </NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink
+                                            to = "/designs"
+                                            className = "nav-link"
+                                            >
+                                            Dates & Deadlines
+                                        </NavLink>
+                                    </li>
+                                    <li>
+                                        <NavLink
+                                            to = "/designs"
+                                            className = "nav-link"
+                                            >
+                                            Jury
+                                        </NavLink>
+                                    </li>
+                                </ul>
                             </li>
                             <li>
                                 <NavLink
