@@ -1,8 +1,12 @@
 
-.footer {
+footer {
     text-align: center;
     padding: 30px;
     font-family: 'Sarabun';
     color: black;
     font-weight: bold;
+
+    position: relative;
+    margin-top: -100px;
+    clear: both;
 }

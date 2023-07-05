@@ -57,7 +57,7 @@ const NavBar = () => {
                                 <ul>
                                     <li>
                                         <NavLink
-                                            to = "/designs"
+                                            to = "/how-to-enter"
                                             className = "nav-link"
                                             >
                                             How to Enter
