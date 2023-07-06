@@ -1,0 +1,27 @@
+
+.how-to-enter {
+    background: #DE5499;
+    color: white;
+    text-align: center;
+}
+
+.how-to-enter header {
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 25px;
+    padding-top: 21px;
+}
+
+.section-hte {
+    font-family: "Sarabun";
+    display: inline-block;
+    justify-content: center;
+    font-weight: bold;
+    text-align: left;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.section-hte ul {
+    text-indent: 5%;
+}

@@ -4,9 +4,7 @@ import './Footer.css';
 const Footer = () => {
     return (
         <footer>
-            <div className ="footer">
-                ©2021 by emBrace 
-            </div>
+            ©2021 by emBrace 
         </footer>
     );
 }

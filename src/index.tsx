@@ -6,23 +6,29 @@ import { Route, Routes } from "react-router-dom";
 import NavBar from "./NavigationBar/NavBar";
 import HomePage from "./HomePage/HomePage";
 import Designs from "./CompetitionResults/Designs";
-import { HashRouter as Router } from 'react-router-dom';
+import HowToEnter from "./emBraceCompetition/HowToEnter/HowToEnter";
+import { BrowserRouter as Router } from 'react-router-dom';
 import Footer from './Footer/Footer'
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <React.StrictMode>
-    <Router>
-      <NavBar/>
-      <Routes>
-          <Route path="/" element={<HomePage/>}></Route>
-          <Route path="/designs" element={<Designs/>}></Route>
-      </Routes>
-      <Footer/>
-    </Router>
-  </React.StrictMode>
+    <React.StrictMode>
+        <div className = "main-container">
+          <div className = "main-content">
+            <Router>
+              <NavBar/>
+              <Routes>
+                  <Route path="/" element={<HomePage/>}></Route>
+                  <Route path="/designs" element={<Designs/>}></Route>
+                  <Route path="/how-to-enter" element = {<HowToEnter/>}></Route>
+              </Routes>
+            </Router>
+          </div>
+        </div>
+        <Footer/>
+    </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

@@ -1,6 +1,6 @@
 
 .navbar {
-    min-height: 30px;
+    min-height: 10px;
     display: flex;
     justify-content: space-between;
     font-family: 'Sarabun';
@@ -43,15 +43,15 @@ nav ul li ul li {
     padding: 10px;
 }
 
-/* hover effect for embrace comp. */ 
+/* hover effect for embrace comp. */
 
-nav ul li a { 
+nav ul li a {
     text-decoration: none;
     color: #DE5499;
     position: relative;
 }
 
-nav ul li a::after { 
+nav ul li a::after {
     content: '';
     height: 2px;
     width: 100%;
@@ -61,7 +61,7 @@ nav ul li a::after {
     opacity: 0;
 }
 
-nav ul li a:hover:after { 
+nav ul li a:hover:after {
     opacity: 1;
 }
 
