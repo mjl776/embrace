@@ -7,6 +7,7 @@ import NavBar from "./NavigationBar/NavBar";
 import HomePage from "./HomePage/HomePage";
 import Designs from "./CompetitionResults/Designs";
 import HowToEnter from "./emBraceCompetition/HowToEnter/HowToEnter";
+import Awards from "./Awards/Awards";
 import { BrowserRouter as Router } from 'react-router-dom';
 import Footer from './Footer/Footer'
 
@@ -23,6 +24,7 @@ root.render(
                   <Route path="/" element={<HomePage/>}></Route>
                   <Route path="/designs" element={<Designs/>}></Route>
                   <Route path="/how-to-enter" element = {<HowToEnter/>}></Route>
+                  <Route path="/awards" element = {<Awards/>}></Route>
               </Routes>
             </Router>
           </div>

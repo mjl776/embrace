@@ -65,7 +65,7 @@ const NavBar = () => {
                                     </li>
                                     <li>
                                         <NavLink
-                                            to = "/designs"
+                                            to = "/awards"
                                             className = "nav-link"
                                             >
                                             Awards

@@ -1,0 +1,46 @@
+.awards-desc-container {
+    background-color: #F1CDBE;
+    text-align: center;
+}
+
+
+.awards-desc-container header {
+    padding-top: 21px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.awards-subheader {
+    font-family: "Sarabun";
+    text-align: center;
+    font-size: 20px;
+}
+
+.description-awards {
+    display: inline-block;
+    text-align: left;
+    padding: 15px;
+    font-family: "Sarabun";
+    color: black;
+    font-weight: bold;
+}
+
+.awards-button-row.row {
+    display: flex;
+    gap: 50px;
+    padding-top: 30px;
+    font-weight: 400;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.awards-button {
+    background: #DE5499;
+    height: 39px;
+    width: 144px;
+    text-align: center;
+    font-family: "Sarabun";
+    font-size: 13px;
+    line-height: 35px;
+    color: white;
+}
