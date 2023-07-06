@@ -1,0 +1,41 @@
+.submit-design-container {
+    background: #DE5499;
+    color: white;
+    font-family: "Sarabun";
+}
+
+.submit-design-header {
+    text-align: center;
+    font-family: "Playfair Display";
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 21px;
+    padding-bottom: 25px;
+}
+
+.submit-design-description {
+    font-weight: bold;
+    text-align: center;
+}
+
+.submit-deadline {
+    color: black;
+    text-decoration: underline;
+}
+
+.to-do-list-submit {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.to-do-list-submit a {
+    text-decoration: underline;
+    color: black;
+}
+
+.design-comp-title {
+    color: black;
+}

@@ -6,30 +6,30 @@ import { NavLink } from 'react-router-dom';
 const NavBar = () => {
      // Screen width setter
      const [screenWidth, setScreenWidth] = useState(window.innerWidth)
- 
+
      //Screen Width Listener
      useEffect(() => {
- 
+
          const changeWidth = () => {
              setScreenWidth(window.innerWidth);
          }
- 
+
          window.addEventListener('resize', changeWidth)
- 
+
          return () => {
              window.removeEventListener('resize', changeWidth)
          }
- 
+
     })
- 
-    return ( 
+
+    return (
             <header>
                 <a href = "/">
                     <img src = {logo} className = "logo" alt = "logo"></img>
-                </a>    
+                </a>
                 <nav className = "navbar">
                     {(screenWidth > 800) && (
-                        
+
                         <ul className = "nav-menu">
                             <li>
                                 <NavLink
@@ -49,7 +49,7 @@ const NavBar = () => {
                             </li>
                             <li>
                                 <NavLink
-                                to = "/"
+                                to = "#"
                                 className = "nav-link"
                                 >
                                 emBrace Competition
@@ -76,7 +76,7 @@ const NavBar = () => {
                                             to = "/designs"
                                             className = "nav-link"
                                             >
-                                            Terms & Conditions 
+                                            Terms & Conditions
                                         </NavLink>
                                     </li>
                                     <li>
@@ -133,7 +133,7 @@ const NavBar = () => {
                     )}
                 </nav>
             </header>
-    ); 
+    );
 }
 
 export default NavBar

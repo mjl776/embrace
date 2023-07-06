@@ -9,6 +9,7 @@
     font-size: 50px;
     font-weight: bold;
     padding-bottom: 25px;
+    padding-top: 21px;
 }
 
 .section-hte {
@@ -23,63 +24,4 @@
 
 .section-hte ul {
     text-indent: 5%;
-}
-
-.examples-of-suitable-entries  {
-    background: #F1CDBE;
-}
-
-.examples-of-suitable-entries header {
-    color: #DE5499;
-    text-align: center;
-    font-size: 50px;
-    font-weight: bold;
-    padding-bottom: 25px;
-}
-
-.example-entries.row {
-    display: flex;
-    margin: 0 auto;
-    justify-content: center;
-}
-
-.suitable-entry.col {
-    padding-right: 127px;
-}
-
-.not-suitable-entry.col {
-
-}
-
-.suitable-entry header {
-    font-size: 25px;
-    padding-bottom: 0px;
-}
-
-.entry-text {
-    font-family: "Sarabun";
-    color: black;
-    font-weight: bold;
-}
-
-.not-suitable-entry header {
-    font-size: 25px;
-    padding-bottom: 0px;
-}
-
-.not-suitable-entry-span {
-    color: black;
-}
-
-.entry-images.row {
-    display: flex;
-    justify-content: center;
-    gap: 70px;
-}
-
-
-.entry-image.col {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
 }

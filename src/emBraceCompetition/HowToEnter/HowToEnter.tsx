@@ -1,7 +1,7 @@
 import React from 'react'
 import "./HowToEnter.css"
 import ExampleEntries from './ExampleEntries';
-
+import SubmitDesign from './SubmitDesign';
 const HowToEnter = () => {
     return (
         <div className = "entries-container">
@@ -42,6 +42,7 @@ const HowToEnter = () => {
                 </div>
             </div>
             <ExampleEntries/>
+            <SubmitDesign/>
         </div>
     );
 }
