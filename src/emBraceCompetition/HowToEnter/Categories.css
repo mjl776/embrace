@@ -1,0 +1,32 @@
+
+.categories-container {
+    color: #DE5499;
+    background: #F1CDBE;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.categories-container header {
+    padding-top: 21px;
+    font-size: 50px;
+    padding-bottom: 25px;
+}
+
+.category-flexbox {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    flex-direction: column;
+}
+
+.category {
+    font-family: "Sarabun";
+    padding: 8px;
+}
+
+.category span {
+    color: black;
+}
+
+

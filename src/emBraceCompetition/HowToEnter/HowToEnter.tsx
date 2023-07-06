@@ -2,6 +2,8 @@ import React from 'react'
 import "./HowToEnter.css"
 import ExampleEntries from './ExampleEntries';
 import SubmitDesign from './SubmitDesign';
+import Catergories from './Categories';
+
 const HowToEnter = () => {
     return (
         <div className = "entries-container">
@@ -43,6 +45,7 @@ const HowToEnter = () => {
             </div>
             <ExampleEntries/>
             <SubmitDesign/>
+            <Catergories/>
         </div>
     );
 }
