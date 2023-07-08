@@ -1,0 +1,51 @@
+
+
+.tiers-awards-container {
+    background: #DE5499;
+    color: white;
+    padding-bottom: 25px;
+}
+
+.wrapper-tiers-awards {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.tiers-award-flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tiers-awards-container header {
+    padding-top: 21px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.tiers-awards-container p {
+    font-family: "Sarabun";
+    padding-left: 87.5px;  /* offset of header */
+}
+
+.tiers-awards-description.row {
+    font-weight: 450;
+    display: flex;
+    padding-left: 87.5px;  /* offset of header */
+    flex-direction: row;
+    font-family: "Sarabun";
+}
+
+.tiers-awards-description-award.col {
+    width: 25%;
+    color: black;
+}
+
+.tiers-awards-description-desc.col {
+    width: 75%;
+    color: black;
+}
+
+
+

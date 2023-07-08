@@ -11,7 +11,7 @@ const HowToEnter = () => {
                 <header>
                     How to Enter
                 </header>
-                <div className = "section-hte">
+                <h2 className = "section-hte">
                     Calling all artists for the emBrace competition!
                     We need fresh new repeating pattern
                     <br/>
@@ -41,7 +41,7 @@ const HowToEnter = () => {
                     pattern will be included in the upcoming Friddles back brace design collection. View
                     <br/>
                     more information about awards and cash prizes by clicking on the button below.
-                </div>
+                </h2>
             </div>
             <ExampleEntries/>
             <SubmitDesign/>

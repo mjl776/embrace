@@ -1,0 +1,47 @@
+
+.awards-platinum-container {
+    background-color: #F1CDBE;
+    padding-bottom: 25px;
+    padding-left: 64.7px; /* offset of tier-awards header */
+}
+
+.awards-platinum-container header {
+    padding-top: 21px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.wrapper-platinum-awards {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.platinum-awards-flexbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.awards-platinum-container p {
+    padding-left: 58.3px; /* offset of header */
+    font-family: "Sarabun";
+}
+
+.platinum-awards-description.row {
+    font-weight: 450;
+    display: flex;
+    padding-left: 58.3px; /* offset of header */
+    flex-direction: row;
+    font-family: "Sarabun";
+}
+
+.platinum-awards-description-award.col {
+    width: 25%;
+    color: black;
+}
+
+.platinum-awards-description-desc.col {
+    width: 75%;
+    color: black;
+}

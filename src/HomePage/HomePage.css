@@ -16,7 +16,7 @@
 }
 
 .slogan {
-    display: inline-block; 
+    display: inline-block;
     text-align: left;
     font-size: 25px;
     padding-bottom: 60px;
@@ -69,7 +69,6 @@
     line-height: 35px;
     color: white;
 }
-
 
 .info-dates.col {
     width: 50%;
