@@ -73,7 +73,7 @@ const NavBar = () => {
                                     </li>
                                     <li>
                                         <NavLink
-                                            to = "/designs"
+                                            to = "/terms-conditions"
                                             className = "nav-link"
                                             >
                                             Terms & Conditions

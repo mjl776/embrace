@@ -7,9 +7,10 @@ import NavBar from "./NavigationBar/NavBar";
 import HomePage from "./HomePage/HomePage";
 import Designs from "./CompetitionResults/Designs";
 import HowToEnter from "./emBraceCompetition/HowToEnter/HowToEnter";
-import Awards from "./Awards/Awards";
+import Awards from "./emBraceCompetition/Awards/Awards";
 import { BrowserRouter as Router } from 'react-router-dom';
 import Footer from './Footer/Footer'
+import TermsAndConditions from "./emBraceCompetition/Terms&Conditions/TermsAndConditions"
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -25,6 +26,7 @@ root.render(
                   <Route path="/designs" element={<Designs/>}></Route>
                   <Route path="/how-to-enter" element = {<HowToEnter/>}></Route>
                   <Route path="/awards" element = {<Awards/>}></Route>
+                  <Route path ="/terms-conditions" element = {<TermsAndConditions/>}/>
               </Routes>
             </Router>
           </div>

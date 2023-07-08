@@ -1,0 +1,22 @@
+
+
+
+.terms-conditions-container {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding-bottom: 25px;
+}
+
+.terms-conditions-container header {
+    font-size: 50px;
+    padding-top: 21px;
+    font-weight: bold;
+}
+
+
+.description-terms {
+    padding-top: 20px;
+    font-size: 15px;
+    color: black;
+    font-family: "Sarabun";
+}
