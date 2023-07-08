@@ -26,12 +26,13 @@
 
 .tiers-awards-container p {
     font-family: "Sarabun";
-    padding-left: 87.5px; /* offset of header */
+    padding-left: 87.5px;  /* offset of header */
 }
 
 .tiers-awards-description.row {
+    font-weight: 450;
     display: flex;
-    padding-left: 87.5px; /* offset of header */
+    padding-left: 87.5px;  /* offset of header */
     flex-direction: row;
     font-family: "Sarabun";
 }
