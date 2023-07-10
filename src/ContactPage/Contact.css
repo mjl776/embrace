@@ -1,0 +1,26 @@
+
+.contact-container {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.contact-container header {
+    font-size: 50px;
+    padding-top: 21px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+.contact-text {
+    font-family: "Sarabun";
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.contact-email {
+    color: black;
+    font-weight: 450;
+}
+
