@@ -13,6 +13,7 @@ import Footer from './Footer/Footer'
 import TermsAndConditions from "./emBraceCompetition/Terms&Conditions/TermsAndConditions"
 import Jury from './emBraceCompetition/Jury/Jury';
 import ImportantDates from './emBraceCompetition/ImportantDates/ImportantDates';
+import Contact from './ContactPage/Contact';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -31,6 +32,7 @@ root.render(
                   <Route path="/terms-conditions" element = {<TermsAndConditions/>}/>
                   <Route path="/jury" element = {<Jury/>}/>
                   <Route path="/deadlines" element = {<ImportantDates/>}/>
+                  <Route path="/contact" element = {<Contact/>}/>
               </Routes>
             </Router>
           </div>

@@ -107,7 +107,7 @@ const NavBar = () => {
                             </li>
                             <li>
                                 <NavLink
-                                to = "/"
+                                to = "/contact"
                                 className = "nav-link"
                                 >
                                 Contact
