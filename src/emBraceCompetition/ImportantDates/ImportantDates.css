@@ -1,0 +1,26 @@
+
+.important-dates-container {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.important-dates-container header {
+    padding-top: 21px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.important-date-text {
+    font-family: "Sarabun";
+    color: black;
+    font-weight: 450;
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+
+.date-title {
+    font-weight: bold;
+    color: #DE5499;
+}
+
