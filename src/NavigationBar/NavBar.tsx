@@ -81,7 +81,7 @@ const NavBar = () => {
                                     </li>
                                     <li>
                                         <NavLink
-                                            to = "/designs"
+                                            to = "/deadlines"
                                             className = "nav-link"
                                             >
                                             Dates & Deadlines
