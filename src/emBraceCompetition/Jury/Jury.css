@@ -1,0 +1,44 @@
+
+.jury-container header{
+    text-align: center;
+    font-size: 50px;
+    padding-top: 21px;
+    font-weight: bold;
+    padding-bottom: 25px;
+}
+
+.jury-row.row {
+    text-align: center;
+}
+
+.jury-child.col {
+    min-height: 400px;
+    flex-basis: 25%;
+}
+
+.jury-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+.jury-wrapper {
+    margin: 0 auto;
+    max-width: 1800px;
+}
+
+.jury-header {
+    color: black;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.jury-description {
+    font-family: "Sarabun";
+    font-size: 15px;
+    color: black;
+}
+
+

@@ -89,7 +89,7 @@ const NavBar = () => {
                                     </li>
                                     <li>
                                         <NavLink
-                                            to = "/designs"
+                                            to = "/jury"
                                             className = "nav-link"
                                             >
                                             Jury
