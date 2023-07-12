@@ -1,0 +1,38 @@
+
+.about-container {
+    background: #F1CDBE;
+    padding-bottom: 20px;
+}
+
+.about-container img {
+    padding: 25px;
+}
+
+.about-container p {
+    text-indent: 50px;
+    font-family: "Sarabun";
+    color: black;
+    margin-block-end: 10px;
+    margin-block-start: 0px;
+}
+
+.about-wrapper {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.about-flexbox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-container header {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 21px;
+    padding-bottom: 25px;
+    font-weight: bold;
+}
+
+

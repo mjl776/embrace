@@ -99,7 +99,7 @@ const NavBar = () => {
                             </li>
                             <li>
                                 <NavLink
-                                to = "/"
+                                to = "/about"
                                 className = "nav-link"
                                 >
                                 About

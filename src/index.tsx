@@ -16,6 +16,7 @@ import ImportantDates from './emBraceCompetition/ImportantDates/ImportantDates';
 import Contact from './ContactPage/Contact';
 import Partnerships from './Partnerships/Partnerships';
 import QAA from './QuestionsAndAnswers/Questions';
+import About from './About/About';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -37,6 +38,7 @@ root.render(
                   <Route path="/contact" element = {<Contact/>}/>
                   <Route path="/partnerships" element = {<Partnerships/>}/>
                   <Route path="/questions-and-answers" element = {<QAA/>}/>
+                  <Route path="/about" element = {<About/>}/>
               </Routes>
             </Router>
           </div>
