@@ -1,0 +1,45 @@
+
+.questions-container header {
+    font-size: 50px;
+    padding-top: 21px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.wrapper-questions {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.wrapper-flexbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.questions-description {
+    font-size: 25px;
+    font-family: "Sarabun";
+    padding-bottom: 20px;
+}
+
+.question {
+    font-size: 25px;
+    font-family: "Sarabun";
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+
+.answer-to-q {
+    font-size: 25px;
+    font-family: "Sarabun";
+    font-weight: 450;
+    padding-bottom: 40px;
+    color: black;
+}
+
+.contact-q-email {
+    color: black;
+    font-weight: 450;
+}
