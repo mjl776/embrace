@@ -123,7 +123,7 @@ const NavBar = () => {
                             </li>
                             <li>
                                 <NavLink
-                                to = "/"
+                                to = "/partnerships"
                                 className = "nav-link"
                                 >
                                 Partnerships
