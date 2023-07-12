@@ -115,7 +115,7 @@ const NavBar = () => {
                             </li>
                             <li>
                                 <NavLink
-                                to = "/"
+                                to = "/questions-and-answers"
                                 className = "nav-link"
                                 >
                                 Q&A Session
