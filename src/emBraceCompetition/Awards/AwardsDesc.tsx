@@ -1,6 +1,7 @@
 import React from "react";
 import "./AwardsDesc.css"
 import {Row, Col} from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 const AwardsDesc = () => {
     return (
         <div className = "awards-desc-container">
@@ -24,8 +25,8 @@ const AwardsDesc = () => {
                 <br/>
                 our website.
                 <Row className = "awards-button-row">
-                    <Col> <div className="awards-button"> Individual Categories </div> </Col>
-                    <Col> <div className="awards-button"> All Categories </div> </Col>
+                    <Col> <a href="#individual-awards"><div className="awards-button"> Individual Categories </div> </a> </Col>
+                    <Col> <a href="#all-awards"><div className="awards-button"> All Categories </div> </a> </Col>
                 </Row>
             </div>
         </div>

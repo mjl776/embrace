@@ -4,7 +4,7 @@ import { Row, Col } from "react-bootstrap"
 
 const TiersAwards = () => {
     return (
-        <div className = "tiers-awards-container">
+        <div className = "tiers-awards-container" id="individual-awards">
             <div className = "wrapper-tiers-awards tiers-award-flexbox">
                 <header>
                     Gold, Silver, and Bronze Braces

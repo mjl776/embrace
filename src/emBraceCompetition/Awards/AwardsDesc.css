@@ -44,3 +44,7 @@
     line-height: 35px;
     color: white;
 }
+
+.awards-button-row a {
+    text-decoration: none;
+}
