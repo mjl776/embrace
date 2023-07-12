@@ -17,6 +17,7 @@ import Contact from './ContactPage/Contact';
 import Partnerships from './Partnerships/Partnerships';
 import QAA from './QuestionsAndAnswers/Questions';
 import About from './About/About';
+import ScrollToTop from './Functions/ScrollToTop';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -27,6 +28,7 @@ root.render(
           <div className = "main-content">
             <Router>
               <NavBar/>
+              <ScrollToTop/>
               <Routes>
                   <Route path="/" element={<HomePage/>}></Route>
                   <Route path="/designs" element={<Designs/>}></Route>

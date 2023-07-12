@@ -6,6 +6,7 @@ import friddles from "../Images/Partnerships/Friddles.png";
 import scolio from "../Images/Partnerships/Scolios-us.png";
 import ssl from "../Images/Partnerships/SSL.png";
 import ss from "../Images/Partnerships/SS.png";
+import { NavLink } from "react-router-dom";
 
 
 const Partnerships = () => {
@@ -24,7 +25,7 @@ const Partnerships = () => {
             </div>
             <Row className = "partnership-button-row">
                 <Col className = "partnership-button">
-                    Visit Curvy Girls
+                   <a href = "https://www.curvygirlsscoliosis.com">Visit Curvy Girls </a>
                 </Col>
             </Row>
             <div className ="partnerships-wrapper partnerships-flexbox">
@@ -37,7 +38,7 @@ const Partnerships = () => {
             </div>
             <Row className = "partnership-button-row">
                 <Col className = "partnership-button">
-                    Visit Friddles
+                <a href = "https://friddles.com">Visit Friddles </a>
                 </Col>
             </Row>
             <div className ="partnerships-wrapper partnerships-flexbox">
@@ -50,7 +51,7 @@ const Partnerships = () => {
             </div>
             <Row className = "partnership-button-row">
                 <Col className = "partnership-button">
-                     Visit Scolios-us
+                    <a href = "https://www.bracingforscoliosus.org"> Visit Scolios-us </a>
                 </Col>
             </Row>
             <div className ="partnerships-wrapper partnerships-flexbox">
@@ -65,7 +66,7 @@ const Partnerships = () => {
             </div>
             <Row className = "partnership-button-row">
                 <Col className = "partnership-button">
-                     Visit SSL
+                    <a href = "https://www.settingscoliosisstraight.org"> Visit SSSF </a>
                 </Col>
             </Row>
             <div className ="partnerships-wrapper partnerships-flexbox">
@@ -79,7 +80,7 @@ const Partnerships = () => {
             </div>
             <Row className = "partnership-button-row">
                 <Col className = "partnership-button">
-                     Visit SSF
+                    <a href = "https://www.scoliosisandspineonlinelearning.com"> Visit SSOL </a>
                 </Col>
             </Row>
         </div>

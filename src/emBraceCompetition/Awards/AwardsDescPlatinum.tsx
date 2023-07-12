@@ -4,7 +4,7 @@ import { Row, Col } from "react-bootstrap"
 
 const AwardsDescPlatinum = () => {
     return (
-        <div className = "awards-platinum-container">
+        <div className = "awards-platinum-container" id="all-awards">
             <div className ="wrapper-platinum-awards platinum-awards-flexbox">
                 <header>
                     Platinum and The emBrace Award
