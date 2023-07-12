@@ -55,3 +55,8 @@
     line-height: 35px;
     color: white;
 }
+
+.partnership-button a {
+    text-decoration: none;
+    color: white;
+}
